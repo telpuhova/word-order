@@ -9,15 +9,25 @@
   </head>
   <body>
     <div class="container">
-      <form id="formOne">
-        <div class="form-group">
-          <label>Input a block of text</label>
-          <div>
-            <input class="changed" id="input" class="form-control" type="text">
-          </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Word counter</h1>
+          <form id="formOne">
+            <div class="form-group">
+              <label>Input a block of text</label>
+              <div>
+                <textarea id="input" cols="100" rows="10"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
         </div>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
+      </div>
+      <div class="row">
+        <div class="col-md-10"><h2>Word count output:</h2></div>
+        <div class="col-md-2"><button id="clearBtn" onclick="onClear();" class="btn btn-default">Clear</button></div>
+      </div>
+
       <ul id="result">
       </ul>
     </div>

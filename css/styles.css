@@ -1,4 +1,35 @@
+body {
+  background-color: #E8E8E8;
+  color: #585858;
+}
 .changed {
   height: 400px;
   width: 600px;
+}
+h1 {
+  color: #757AD1;
+  border-bottom: 1px solid #757AD1;
+}
+h2 {
+  color: #757AD1;
+}
+
+#clearBtn {
+  float: right;
+}
+.row {
+  width: 750px;
+}
+#result {
+  background-color: #fff;
+  width: 725px;
+  min-height: 400px;
+}
+#clearBtn {
+margin: 20px 0px 0px 0px;
+}
+.btn-default:hover {
+  background-color: #F03759;
+  border-color: #781C2D;
+  color: #fff;
 }
